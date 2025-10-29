@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    background: aqua;
+    transition: background-color 0.5s;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 40px;
+}
+
+button {
+    background:gold;
+    border:none;
+    padding: 12px 20px;
+    font-size:18px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.confetti {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  border-radius: 50%;
+}
